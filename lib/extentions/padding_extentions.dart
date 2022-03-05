@@ -20,7 +20,7 @@ extension EasyPadding on Widget {
         ),
         child: this,
       );
-  Widget stymmetric(double horizontal, double vertical) => Padding(
+  Widget stymmetric({double horizontal = 0, double vertical = 0}) => Padding(
         padding:
             EdgeInsets.symmetric(horizontal: horizontal, vertical: vertical),
         child: this,
@@ -31,12 +31,12 @@ extension EasyPadding on Widget {
         child: this,
       );
 
-  Widget fromLTRB({
-    required double left,
-    required double top,
-    required double right,
-    required double bottom,
-  }) =>
+  Widget fromLTRB(
+    double left,
+    double top,
+    double right,
+    double bottom,
+  ) =>
       Padding(
         padding: EdgeInsets.fromLTRB(left, top, right, bottom),
         child: this,
