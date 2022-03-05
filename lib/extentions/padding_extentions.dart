@@ -20,7 +20,7 @@ extension EasyPadding on Widget {
         ),
         child: this,
       );
-  Widget stymmetric({double horizontal = 0, double vertical = 0}) => Padding(
+  Widget symmetric({double horizontal = 0, double vertical = 0}) => Padding(
         padding:
             EdgeInsets.symmetric(horizontal: horizontal, vertical: vertical),
         child: this,
