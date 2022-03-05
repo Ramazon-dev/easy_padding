@@ -5,9 +5,19 @@ extension EasyPadding on Widget {
         padding: EdgeInsets.all(all),
         child: this,
       );
-  Widget only(double top, double right, double left, double bottom) => Padding(
-        padding:
-            EdgeInsets.only(top: top, right: right, left: left, bottom: bottom),
+  Widget only({
+    double top = 0,
+    double right = 0,
+    double left = 0,
+    double bottom = 0,
+  }) =>
+      Padding(
+        padding: EdgeInsets.only(
+          top: top,
+          right: right,
+          left: left,
+          bottom: bottom,
+        ),
         child: this,
       );
   Widget stymmetric(double horizontal, double vertical) => Padding(
