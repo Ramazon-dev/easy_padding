@@ -14,6 +14,8 @@ and the Flutter guide for
 
 ## Easy_padding
 
+<!-- <img src="https://raw.githubusercontent.com/BahromjonPolat/on_click/main/example/assets/a.jpg" width="50%"> -->
+
 You can add padding to any widgets with easy_padding package.
 
 ## Getting started
