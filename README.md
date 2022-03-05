@@ -11,29 +11,48 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
 
-## Features
+## Easy_padding
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+You can add padding to any widgets with easy_padding package.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To install this package, open pubspec.yaml file and add to dependencies.
+
+```dart
+dependencies:
+  ...
+  on_click ^0.0.2
+```
+
+Also you can install package from terminal, write following command in terminal
+
+```dart
+flutter pub add easy_padding
+```
+
+
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+After installing import package
 
 ```dart
-const like = 'sample';
+import 'package:on_click/on_click.dart';
 ```
 
-## Additional information
+## Example
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+```dart
+Text('data').all(50),
+```
+```dart
+CircleAvatar(
+    backgroundColor: Colors.yellow,
+   ).only(
+    top: 15, 
+    left: 30, 
+    right: 40,
+   ),
+```
