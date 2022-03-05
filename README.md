@@ -14,7 +14,8 @@ and the Flutter guide for
 
 ## Easy_padding
 
-<!-- <img src="https://raw.githubusercontent.com/BahromjonPolat/on_click/main/example/assets/a.jpg" width="50%"> -->
+<img src="https://github.com/Ramazon-dev/easy_padding/blob/6e965c35f8e21c07c442ee837856f5252b7ac3e0/example/assets/a.jpg" width="50%">
+<img src="https://github.com/Ramazon-dev/easy_padding/blob/6e965c35f8e21c07c442ee837856f5252b7ac3e0/example/assets/b.jpg" width="50%">
 
 You can add padding to any widgets with easy_padding package.
 
